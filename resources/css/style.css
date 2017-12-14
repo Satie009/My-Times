@@ -72,3 +72,55 @@ div {
 .column.small {
   width:240px;
 }
+
+/* Add images - this is step 3 */
+
+.image-content {
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-size:30px;
+  color:white;
+  text-align: center;
+}
+
+.lead-story .image-content {
+  background-image: url("images/img-story-main.png");
+  width:630px;
+  margin-top: 0;
+  font-size:40px;
+  text-align;left;
+}
+
+.fall-cancelled.image-content {
+  background-image: url("images/img-story-2.png");
+}
+
+.pop-culture.image-content {
+  background-image: url("images/img-story-3.png");
+}
+
+.cat-ceo.image-content {
+  background-image: url("images/img-story-1.png");
+}
+
+/* Make stories flexible - step 4 */
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height:250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width:300px;
+}
+
+.narrative {
+  margin-top: 16px;
+}
